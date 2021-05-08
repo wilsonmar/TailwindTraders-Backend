@@ -131,7 +131,7 @@ You can optionally pass two additional parameters:
 
 If these two parameters are not passed a new service principal will be created.
 
-There is an additional optional parameters to control some aspects of what is created:
+There is an additional optional parameter to control some aspects of what is created:
 
 - `-deployAks`: If set to `$false` AKS and ACR are not created. This is useful if you want to create the AKS yourself or use an existing AKS. Defaults to `$true`. If this parameter is `$true` the resource group can't exist (AKS must be deployed in a new resource group).
 
