@@ -126,7 +126,7 @@ You can use the CLI to deploy the ARM script. Open a Powershell window from the 
 
 You can optionally pass two additional parameters:
 
-- `-clientId`: Id of the service principal uesd to create the AKS
+- `-clientId`: Id of the service principal used to create the AKS
 - `-password`: Password of the service principal
 
 If these two parameters are not passed a new service principal will be created.
